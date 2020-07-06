@@ -8,7 +8,8 @@ This currently only supports the Python 3.7 runtime, but should be easy to adapt
 # How to Build
 
 ```
-# Build the Docker image, which creates the zip file
+# Clone this repo, cd into it
+# then build the Docker image, which creates the zip file
 docker build -t weasyprint .
 
 # Create an instance of the image (without actually running it)
